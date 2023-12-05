@@ -6,7 +6,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: var(--Light-slate-blue  );
+	background-color: var(--Light-royal-blue  );
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	
@@ -17,13 +17,13 @@
 .show-result{
 	font-weight: bold;
 	text-align: center;
-	border: solid 1px black;
-	width: 90px;
-	height: 90px;
+	border: solid 1px transparent;
+	width: 150px;
+	height: 150px;
 	border-radius: 100%;
-	padding:  20px 10px 0 10px ;
-	font-size: 30px;
-	background-color: var(--Violet-blue );
+	 padding-top:  40px  ; 
+	font-size: 48px;
+	background-color: var(--Persian-blue );
 	margin: 20px 0;
 
 }
@@ -31,16 +31,23 @@
 	display: block;
 	margin-top: px;
 	font-size: 18px;
-	margin-top :5px ;
 	opacity: .5;
 	font-weight: 500;
 }
 .desc{
 	max-width: 300px;
 	text-align: center;
+	margin-bottom: 50px;
 }
 .desc h3{
 	font-size: 20px;
 	margin: 0;
 
+}
+@media only  screen and (min-width : 1000px) {
+	.result-section{
+		width: calc( 50% - 10px );
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+	}
 }

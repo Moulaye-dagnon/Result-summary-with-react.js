@@ -1,0 +1,19 @@
+button{
+	color:#fff; 
+	width: 100%;
+	border-radius: 20px ;
+	padding: 10px ;
+	font-size: 18px;
+	background-color: var(--Dark-gray-blue);
+	border: none;
+
+}
+button:hover{
+	background-color: var(--Light-royal-blue);
+}
+@media only screen  and (min-width:1000px){
+	.section-summary{
+		width: calc(50% - 10px);
+		flex: none;
+	}
+}

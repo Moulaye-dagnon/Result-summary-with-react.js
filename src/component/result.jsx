@@ -1,7 +1,7 @@
 import './result.css'
 export function Result(){
 	return <div className="result-section">
-		<p className='result'>Result</p>
+		<p className='result'>Your Result</p>
 		<span className='show-result'>76 <span>of 100</span></span>
 		<div className='desc'>
 		<h3>Great</h3>

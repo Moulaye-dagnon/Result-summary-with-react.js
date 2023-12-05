@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 .Item{
 	margin: 10px 0;
 	display: flex;
@@ -7,6 +10,8 @@
 	border-width: 1px;
 	padding: 0 10px;
 	border-radius: 10px;
+	flex: none;
+	height: 45px;
 }
 .Item div{
 	display: flex;
