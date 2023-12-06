@@ -9,7 +9,7 @@ export function Summary(){
 			 <h2>Summary</h2>
 			 {
 				data.map((el)=>{
-				return <Item element={el} />
+				return <Item element={el} key={el.score} />
 				})
 			 }
 			 <button type='button'  >Continuer</button>
