@@ -4,7 +4,9 @@ export function Item({ element}){
 
 	return <div className="Item" style={styles} >
 		<div>
-			<img src={require(`${element.icon}`)} alt="" />
+			{/* <img src={require(`${element.icon}`)} alt="" /> */}
+			<img src="" alt="" />
+
 			<span>{element.category}</span>
 
 		</div>
